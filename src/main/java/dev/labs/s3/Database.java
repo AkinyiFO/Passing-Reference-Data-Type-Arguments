@@ -16,7 +16,7 @@ class Database {
         this.password = password;
     }
 
-    private String password = "";
+    private String password = "Changed!";
 
     public Database(){}
 
@@ -26,7 +26,7 @@ class Database {
         password = startPassword;
     }
 
-    void connect(String newConnectionString, String newUsername, String newPassword, int y) {
+    void connect(String newConnectionString, String newUsername, String newPassword) {
         connectionString = newConnectionString;
         username = newUsername;
         password = newPassword;
